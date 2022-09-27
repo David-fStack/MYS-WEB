@@ -12,6 +12,8 @@ import IndividualIntervalsExample from './Components/CarouselVyS/CarouselVyS';
 import logo from './Assets/Img/Logo/logo.png'
 import img4 from './Assets/Img/CarouselVyS/img4.webp'
 import img2 from './Assets/Img/CarouselVyS/img2.jpg'
+import TextControlsExample from './Components/Contact/Contact';
+import Separator from './Components/Separator/Separator';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       </div>
      
       <ImgBlur />
+      <Separator />
+      <TextControlsExample />
       <Parallax />
       <Footer />
       <CopyRigth />

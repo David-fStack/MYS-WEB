@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import ricoh from '../../Assets/Img/Hero/ricoh.jpg'
 import xerox from '../../Assets/Img/Hero/xerox.png'
 import xerox3 from '../../Assets/Img/Hero/xerox3.png'
+import xerox4 from '../../Assets/Img/Hero/xerox4.jpg'
 
 function CarouselFadeExample() {
   return (
@@ -32,7 +33,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={xerox3}
+          src={xerox4}
           alt="Third slide"
         />
 

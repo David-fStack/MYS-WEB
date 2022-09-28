@@ -22,6 +22,7 @@ function App() {
     <div className="App">
       <CollapsibleExample />
       <CarouselFadeExample />
+      <Separator />
 
       <div className='container-fluid'>
         <div className='row'>

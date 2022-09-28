@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-sm-12 col-md-7 text_style">
+                        <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
                             <h6>Sobre Nosotros</h6>
                             <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
                                 upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or

@@ -3,7 +3,7 @@ import './CopyRigth.css'
 
 const CopyRigth = () => {
     return (
-        <div class="copyRigth">© Copyright 2022 - All Rights Reserved
+        <div class="copyRigth">© Copyright 2022 - All Rights Reserved - 
             <a href="https://github.com/David-fStack">David-fStack</a>
         </div>
     );

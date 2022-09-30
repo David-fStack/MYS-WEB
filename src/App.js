@@ -14,11 +14,14 @@ import img4 from './Assets/Img/CarouselVyS/img4.webp'
 import img2 from './Assets/Img/CarouselVyS/img2.jpg'
 import TextControlsExample from './Components/Contact/Contact';
 import Separator from './Components/Separator/Separator';
+import Attendance from './Components/Attendance/Attendance';
+import WhatsApp from './Components/WhatsApp/WhatsApp';
 
 
 function App() {
   return (
     <div className="App">
+      <WhatsApp />
       <CollapsibleExample />
       <CarouselFadeExample />
 
@@ -30,6 +33,7 @@ function App() {
       </div>
      
       <ImgBlur />
+      <Attendance />
       <Separator />
       <TextControlsExample />
       <Parallax />

@@ -1,4 +1,7 @@
 .separator_style{
-    background-color: rgb(25, 101, 199);
+    background-color: rgb(215, 58, 58);
     height: 1px;
+    width: 90%;
+    margin: 1.5rem auto;
+    opacity: 0.3;
 }

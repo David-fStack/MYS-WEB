@@ -3,7 +3,7 @@ import './Separator.css'
 
 const Separator = () => {
     return (
-        <div className='container separator_style'>
+        <div className='separator_style'>
             <hr className=''/>
         </div>
     );

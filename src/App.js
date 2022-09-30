@@ -10,8 +10,9 @@ import Parallax from './Components/Parallax/Parallax';
 import IndividualIntervalsExample from './Components/CarouselVyS/CarouselVyS';
 // import venta from './Assets/Img/CardVyS/ventas.webp'
 import logo from './Assets/Img/Logo/logo.png'
-import img4 from './Assets/Img/CarouselVyS/img4.webp'
+// import img4 from './Assets/Img/CarouselVyS/img4.webp'
 import img2 from './Assets/Img/CarouselVyS/img2.jpg'
+import aseso from './Assets/Img/CardVyS/aseso.jpg'
 import TextControlsExample from './Components/Contact/Contact';
 import Separator from './Components/Separator/Separator';
 import Attendance from './Components/Attendance/Attendance';
@@ -24,11 +25,12 @@ function App() {
       <WhatsApp />
       <CollapsibleExample />
       <CarouselFadeExample />
+      <Separator />
 
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-xl-6 col-md-12 col-sm-12'><BasicExample /></div>
-          <div className='col-xl-6 col-md-12 col-sm-12'> <IndividualIntervalsExample img={logo} img1={img4} img2={img2} /></div>
+          <div className='col-xl-6 col-md-12 col-sm-12'> <IndividualIntervalsExample img={logo} img1={aseso} img2={img2} /></div>
         </div>
       </div>
      

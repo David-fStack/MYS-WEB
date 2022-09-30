@@ -141,23 +141,6 @@
   background-color:#ea4c89
 }
 
-/* FIN FOOTER */
-
-/* COPY-RIGTH */
-.copyRigth {
-    text-transform: uppercase;
-    background-color: var(--black);
-    color: white;
-    text-align: center;
-
-}
-
-/* Formulario E-mail */
-
-.contactoFormulario, .parrafo{
-  text-align: center;
-}
-
 
 /* MEDIA QUERY */
 @media(min-width: 360px) {
@@ -178,16 +161,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-  .imgBanner {
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-  .imgBanner_1, .imgBanner_2, .imgBanner_3, .imgBanner_4, .imgBanner_5 {
-    width: 14vw;
 }
 
   .social-icons li.title

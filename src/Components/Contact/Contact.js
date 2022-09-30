@@ -3,15 +3,14 @@ import './Contact.css'
 
 function TextControlsExample() {
     return (
-        <div className='m-4 form_style'>
-            <div className='container pt-3 text-primary'>
-                <h3>Formulario de contacto</h3>
-            </div>
+        <div className='m-auto container form_style' id='contactForm'>
             
-            <Form className='container'>
+                <h3>Formulario de contacto</h3>
+            
+            <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Nombre y Apellido</Form.Label>
-                    <Form.Control type="text" placeholder="name@example.com" />
+                    <Form.Control type="text" placeholder="Nombre y Apellido" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -21,11 +20,11 @@ function TextControlsExample() {
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Celular</Form.Label>
-                    <Form.Control type="number" placeholder="name@example.com" />
+                    <Form.Control type="number" placeholder="Ej: 3816658793" />
                 </Form.Group>
 
                 <Form.Group className="pb-4" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Label>Escriba aqui</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
 

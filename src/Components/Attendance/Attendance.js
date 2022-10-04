@@ -3,7 +3,7 @@ import './Attendance.css'
 
 const Attendance = () => {
     return (
-        <div class="servicio container " id="servicios">
+        <div class="servicio container-fluid px-4" id="servicios">
 
             <div class="row pngPrincipal">
                 <div class="png sombra container iconsMedio">

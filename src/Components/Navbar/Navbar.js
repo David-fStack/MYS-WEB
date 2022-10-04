@@ -12,7 +12,6 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features"></Nav.Link>
-            <Nav.Link href="#Contacto">Contacto</Nav.Link>
             <Nav.Link href="#contactForm">Contacto</Nav.Link>
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item>
@@ -26,12 +25,6 @@ function CollapsibleExample() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

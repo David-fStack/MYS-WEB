@@ -1,11 +1,12 @@
 import Form from 'react-bootstrap/Form';
 import './Contact.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function TextControlsExample() {
-
+    AOS.init()
 
     return (
-        <div className='m-auto container form_style' id='contactForm'>
+        <div className='m-auto container form_style' id='contactForm' data-aos="fade-up">
 
             <h3>Formulario de contacto</h3>
 

@@ -1,9 +1,13 @@
 import React from 'react';
 import './Attendance.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Attendance = () => {
+    AOS.init();
     return (
-        <div class="servicio container-fluid px-4" id="servicios">
+        <div class="servicio container-fluid px-4" id="servicios" data-aos="flip-left">
 
             <div class="row pngPrincipal">
                 <div class="png sombra container iconsMedio">

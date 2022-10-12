@@ -18,25 +18,28 @@ import TextControlsExample from './Components/Contact/Contact';
 import Separator from './Components/Separator/Separator';
 import Attendance from './Components/Attendance/Attendance';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 function App() {
-  return (
+  AOS.init();
+  return ( 
     <div className="App">
       <WhatsApp />
       <CollapsibleExample />
       <CarouselFadeExample />
       <Separator />
 
-      <div className='container-fluid'>
+      <div className='container-fluid' data-aos="zoom-out-up">
         <div className='row'>
           <div className='col-xl-6 col-md-12 col-sm-12'><BasicExample /></div>
           <div className='col-xl-6 col-md-12 col-sm-12'> <IndividualIntervalsExample img={logo} img1={asesoria} img2={img2} /></div>
         </div>
       </div>
      
-      <ImgBlur />
       <Attendance />
       <Separator />
       <TextControlsExample />

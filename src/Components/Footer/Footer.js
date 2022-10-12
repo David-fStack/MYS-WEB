@@ -23,8 +23,8 @@ const Footer = () => {
                         <div className="col-sm-8 col-md-3">
                             <h6>Enlaces Rapidos</h6>
                             <ul className="footer-links">
-                                <li><a href="contacto.html">Contactanos</a></li>
-                                <li><a href="#servicios">Servcios</a></li>
+                                <li><a href="#contactForm">Contactanos</a></li>
+                                <li><a href="#contactForm">Servcios</a></li>
                                 <li><a href="#drivers">Drivers</a></li>
                             </ul>
 

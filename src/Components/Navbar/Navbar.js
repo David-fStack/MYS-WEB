@@ -18,7 +18,7 @@ function CollapsibleExample() {
               <NavDropdown.Item href="#action/3.2">
                 Insumos
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Asesoria</NavDropdown.Item>
+              <NavDropdown.Item href="https://wa.me/message/27JSG64AO55UD1">Asesoria</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#abautUs">
                 Sobre Nosotros

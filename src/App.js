@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CollapsibleExample from './Components/Navbar/Navbar';
 import CarouselFadeExample from './Components/Hero/Hero';
 import BasicExample from './Components/InfoVyS/InfoVyS';
-import ImgBlur from './Components/ImgBlur/ImgBlur';
 import Footer from './Components/Footer/Footer';
 import CopyRigth from './Components/CopyRigth/CopyRigth';
 import Parallax from './Components/Parallax/Parallax';
@@ -20,7 +19,6 @@ import Attendance from './Components/Attendance/Attendance';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 
 
 

@@ -37,7 +37,7 @@ function App() {
           <div className='col-xl-6 col-md-12 col-sm-12'> <IndividualIntervalsExample img={logo} img1={asesoria} img2={img2} /></div>
         </div>
       </div>
-     
+      
       <Attendance />
       <Separator />
       <TextControlsExample />

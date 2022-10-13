@@ -13,11 +13,7 @@ const Footer = () => {
 
                         <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
                             <h6>Sobre Nosotros</h6>
-                            <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
-                                upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
-                                snippets as the code wants to be simple. We will help programmers build up concepts in different
-                                programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
-                                SQL and Algorithm.</p>
+                            <p className="text-justify">M&S<i> Tecnología Digital.</i> Somo una empresa familiar dedicada desde hace mas de 25 años a la venta, alquiler y reparación de equipos fotocopiadores e impresoras. <br />Contamos con nuestro propio servicio técnico especializado conformado por profecionales altamente capacitados y preparados para resolver lo anyes posible cualquier inconveniente.</p>
                         </div>
 
                         <div className="col-sm-8 col-md-3">

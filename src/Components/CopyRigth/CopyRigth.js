@@ -1,7 +1,10 @@
 import React from 'react';
 import './CopyRigth.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const CopyRigth = () => {
+    AOS.init();
 
     return (
         <div class="copyRigth">© Copyright 2022 - All Rights Reserved - 

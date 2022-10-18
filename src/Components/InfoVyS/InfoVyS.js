@@ -6,9 +6,9 @@ function BasicExample() {
       <Accordion.Item eventKey="0">
         <Accordion.Header><strong>Venta y Alquiler</strong></Accordion.Header>
         <Accordion.Body>
-          Contamos con equipos fotocopiadores, impresoras, scanners Blanco-negro y Color de ultimo modelo de las marcas mas reconocidas. Para así tener la mejor eperiencia al momento de manipular nuestros equipos.
+          Contamos con equipos fotocopiadores, impresoras, scanners Blanco-negro y Color de ultima generación de las marcas mas reconocidas. Para así tener la mejor eperiencia al momento de manipular nuestros equipos.
           <br />
-          Nuestros equipos para la venta y alquileres son acordes a las necesidades del cliente, asi tambien las prestaciones de los mismos. Para sacar el mejor provecho del mercado.
+          Los equipos proporcionados para la venta y alquiler son acordes a las necesidades del cliente, como asi tambien las prestaciones de los mismos.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
@@ -20,9 +20,9 @@ function BasicExample() {
       <Accordion.Item eventKey="2">
         <Accordion.Header><strong>Asesoramiento Profecional</strong></Accordion.Header>
         <Accordion.Body>
-          Nuestro equipo lo asesorara de la mejor manera, con respecto a las necesidades que se presenten. Si necesita alquilar, comprar un equipo o asi tambien con los insumos de los mismos, prestaciones del necesarias del equipo (velocidad, seguridad, tamaño final de impresion o copiado, Blanco-Negro, color, impresoras o multifunción), costos de copiado, porcentajes de ganancias, ubicaciónes, etc.
+          Nuestro equipo de profesionales lo asesorará de la mejor manera, con respecto a todo lo que necesite para comenzar con su negocio o implementación empresarial, tanto a la hora de alquilar o comprar (equipos e insumos) dependiendo de las funcionalidades, costos y ganancias que mejor se adapten a sus necesides.
           <br />
-          Todo lo que necesite para comenzar con su negocio o implementación empresarial.
+          
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

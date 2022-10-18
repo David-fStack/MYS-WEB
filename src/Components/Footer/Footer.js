@@ -13,7 +13,7 @@ const Footer = () => {
 
                         <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
                             <h6>Sobre Nosotros</h6>
-                            <p className="text-justify">M&S<i> Tecnología Digital.</i> Somos una empresa familiar dedicada desde hace mas de 22 años a la venta, alquiler y reparación de equipos fotocopiadores e impresoras. Fundada por Mario y Elizabeth en el año 2000 con el afan de trabajar de eso que tanto les gustaba, abriendo su propia empresa y ser competitivos en el mercado. Posicionandose como una de las mejores en su rubro, por su profesionalismo y calidez, creando relaciones de años con nuestros clientes y proveedores.</p>
+                            <p className="text-justify">M&S<i> Tecnología Digital.</i> Somos una empresa familiar dedicada hace mas de 22 años a la venta, alquiler y reparación de equipos fotocopiadores e impresoras. <br /> Fundada por Mario y su esposa Elizabeth en el año 2000, abren su propia empresa, posicionandose como una de las mejores en su rubro, por su profesionalismo y calidez a la hora de la atención, creando así relaciones de años con nuestros clientes y proveedores.</p>
                         </div>
                 
 

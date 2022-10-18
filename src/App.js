@@ -28,8 +28,8 @@ function App() {
       <CollapsibleExample contacto='#contactForm'/>
       <CarouselFadeExample />
       <Separator />
-
-      <div className='container-fluid' data-aos="zoom-out-up">
+      
+      <div className='container-fluid' data-aos="zoom-out-up" data-aos-delay="300">
         <div className='row'>
           <div className='col-xl-6 col-md-12 col-sm-12'><BasicExample /></div>
           <div className='col-xl-6 col-md-12 col-sm-12'> <IndividualIntervalsExample img={logo} img1={asesoria} img2={img2} /></div>

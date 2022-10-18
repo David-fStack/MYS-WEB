@@ -19,7 +19,7 @@ function CollapsibleExample(props) {
               <NavDropdown.Item href="Equipos">
                 Equipos
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://wa.me/message/27JSG64AO55UD1">Asesoria</NavDropdown.Item>
+              <NavDropdown.Item href="#/"></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#abautUs">
                 Sobre Nosotros

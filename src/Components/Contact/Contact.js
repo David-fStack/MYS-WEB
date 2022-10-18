@@ -30,7 +30,7 @@ function TextControlsExample() {
 
 
     return (
-        <div className='m-auto container form_style' id='contactForm' data-aos="fade-up">
+        <div className='m-auto container form_style' id='contactForm' data-aos="fade-up" data-aos-delay="300">
             
             <h3>Formulario de contacto</h3>
 

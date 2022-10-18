@@ -8,7 +8,7 @@ const Footer = () => {
     AOS.init()
     return (
             <footer className="site-footer">
-                <div className="container" data-aos="flip-up">
+                <div className="container" data-aos="flip-up" data-aos-delay="300">
                     <div className="row">
 
                         <div className="col-sm-12 col-md-7 text_style" id='abautUs'>

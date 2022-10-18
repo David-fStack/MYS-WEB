@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Attendance = () => {
     AOS.init();
     return (
-        <div class="servicio container-fluid px-4" id="servicios" data-aos="flip-left">
+        <div class="servicio container-fluid px-4" id="servicios" data-aos="flip-left" data-aos-delay="300">
 
             <div class="row pngPrincipal">
                 <div class="png sombra container iconsMedio">

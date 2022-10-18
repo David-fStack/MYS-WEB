@@ -3,20 +3,21 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function CollapsibleExample() {
+
+function CollapsibleExample(props) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="index.html">M<span className='text-danger'>&</span>S</Navbar.Brand>
+        <Navbar.Brand href="/">M<span className='text-danger'>&</span>S</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features"></Nav.Link>
-            <Nav.Link href="#contactForm">Contacto</Nav.Link>
+            <Nav.Link href={props.contacto}>Contacto</Nav.Link>
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Insumos
+              <NavDropdown.Item href="Equipos">
+                Equipos
               </NavDropdown.Item>
               <NavDropdown.Item href="https://wa.me/message/27JSG64AO55UD1">Asesoria</NavDropdown.Item>
               <NavDropdown.Divider />

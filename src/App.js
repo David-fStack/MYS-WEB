@@ -1,8 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
 import CollapsibleExample from './Components/Navbar/Navbar';
 import CarouselFadeExample from './Components/Hero/Hero';
 import BasicExample from './Components/InfoVyS/InfoVyS';
@@ -19,6 +16,7 @@ import Attendance from './Components/Attendance/Attendance';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import { Link } from 'react-router-dom';
 
 
 
@@ -27,7 +25,7 @@ function App() {
   return ( 
     <div className="App">
       <WhatsApp />
-      <CollapsibleExample />
+      <CollapsibleExample contacto='#contactForm'/>
       <CarouselFadeExample />
       <Separator />
 
@@ -44,6 +42,7 @@ function App() {
       <Parallax />
       <Footer />
       <CopyRigth />
+      
     </div>
   );
 }

@@ -13,8 +13,9 @@ const Footer = () => {
 
                         <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
                             <h6>Sobre Nosotros</h6>
-                            <p className="text-justify">M&S<i> Tecnología Digital.</i> Somo una empresa familiar dedicada desde hace mas de 25 años a la venta, alquiler y reparación de equipos fotocopiadores e impresoras. <br />Contamos con nuestro propio servicio técnico especializado conformado por profecionales altamente capacitados y preparados para resolver lo anyes posible cualquier inconveniente.</p>
+                            <p className="text-justify">M&S<i> Tecnología Digital.</i> Somos una empresa familiar dedicada desde hace mas de 22 años a la venta, alquiler y reparación de equipos fotocopiadores e impresoras. Fundada por Mario y Elizabeth en el año 2000 con el afan de trabajar de eso que tanto les gustaba, abriendo su propia empresa y ser competitivos en el mercado. Posicionandose como una de las mejores en su rubro, por su profesionalismo y calidez, creando relaciones de años con nuestros clientes y proveedores.</p>
                         </div>
+                
 
                         <div className="col-sm-8 col-md-3">
                             <h6>Enlaces Rapidos</h6>

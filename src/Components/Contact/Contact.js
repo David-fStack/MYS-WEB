@@ -31,9 +31,8 @@ function TextControlsExample() {
 
     return (
         <div className='m-auto container form_style' id='contactForm' data-aos="fade-up">
-
+            
             <h3>Formulario de contacto</h3>
-
 
             <Form  ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

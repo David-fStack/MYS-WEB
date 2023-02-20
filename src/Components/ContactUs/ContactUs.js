@@ -4,7 +4,9 @@ import emailjs from '@emailjs/browser';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-export const ContactUs = () => {
+
+
+ const ContactUs = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -56,20 +58,6 @@ export const ContactUs = () => {
     );
 }
 
+export default ContactUs;
 
 
-
-
-        // <div className='container'>
-        //     <div className='row'>
-        //         <form className='form_style' ref={form} onSubmit={sendEmail} action="#" >
-        //             <label>Name</label>
-        //             <input type="text" name="user_name" />
-        //             <label>Email</label>
-        //             <input type="email" name="user_email" />
-        //             <label>Message</label>
-        //             <textarea name="message" />
-        //             <input type="submit" value="Send" />
-        //         </form>
-        //     </div>
-        // </div>

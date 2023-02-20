@@ -1,14 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Footer = () => {
-    AOS.init()
+
     return (
             <footer className="site-footer">
-                <div className="container" data-aos="flip-up" data-aos-delay="300">
+                <div className="container">
                     <div className="row">
 
                         <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
@@ -36,7 +34,7 @@ const Footer = () => {
                 
                
 
-                <div className="container mb-3" data-aos="flip-down">
+                <div className="container mb-3">
                     <div className="row">
 
                         <div className="col-md-12 col-sm-12 col-xs-12">

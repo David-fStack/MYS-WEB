@@ -1,13 +1,10 @@
 import Form from 'react-bootstrap/Form';
 import './Contact.css'
-import AOS, { init } from 'aos';
-import 'aos/dist/aos.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
 function TextControlsExample() {
-    AOS.init()
     const btn = document.getElementById('button');
     const form = useRef();
 
@@ -30,7 +27,7 @@ function TextControlsExample() {
 
 
     return (
-        <div className='m-auto container form_style' id='contactForm' data-aos="fade-up" data-aos-delay="300">
+        <div className='m-auto container form_style' id='contactForm'>
             
             <h3>Formulario de contacto</h3>
 

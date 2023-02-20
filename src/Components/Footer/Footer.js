@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mapaFooter">
-                    <iframe
+                    <iframe title='1'
                         src="https://www.google.com/maps?q=Jos%C3%A9%20Colombres%20392%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n%2C%20Argentina&z=14&t=&ie=UTF8&output=embed"
                         width="100%" height="250" >
                     </iframe>

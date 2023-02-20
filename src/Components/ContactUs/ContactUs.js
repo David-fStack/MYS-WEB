@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import './ContactUs.css'
 
 
 

@@ -10,7 +10,6 @@ import IndividualIntervalsExample from './Components/CarouselVyS/CarouselVyS';
 import logo from './Assets/Img/Logo/logo.png'
 import img2 from './Assets/Img/CarouselVyS/img2.jpg'
 import asesoria from './Assets/Img/CardVyS/aseso.jpg'
-import TextControlsExample, { ContactUs } from './Components/ContactUs/ContactUs';
 import Separator from './Components/Separator/Separator';
 import Attendance from './Components/Attendance/Attendance';
 import WhatsApp from './Components/WhatsApp/WhatsApp';

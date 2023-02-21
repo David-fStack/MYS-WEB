@@ -5,7 +5,7 @@ import xerox4 from '../../Assets/Img/Hero/xerox4.jpg'
 
 function CarouselFadeExample() {
   return (
-    <Carousel fade>
+    <Carousel data-aos="zoom-in" data-aos-duration="3000" fade>
       <Carousel.Item>
         <img
           className="d-block w-100"

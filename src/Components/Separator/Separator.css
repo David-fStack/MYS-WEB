@@ -1,7 +1,8 @@
 .separator_style{
-    background-color: rgb(215, 58, 58);
-    height: 1px;
-    width: 90%;
-    margin: 1.5rem auto;
-    opacity: 0.3;
+    /* margin: 50px 0px 20px 50px; */
+    border-bottom: #F33535 1px solid;
+}
+.text_style_separator{
+    font-family: serif;
+    font-size: 2rem;
 }

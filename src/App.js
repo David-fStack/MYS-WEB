@@ -22,7 +22,7 @@ function App() {
       <WhatsApp />
       <CollapsibleExample contacto='#contactForm'/>
       <CarouselFadeExample />
-      <Separator />
+      <Separator seccion='Nuestros Servicios' />
       
       <div className='container-fluid'>
         <div className='row'>
@@ -32,7 +32,7 @@ function App() {
       </div>
       
       <Attendance />
-      <Separator />
+      <Separator seccion='Envíanos Tu Consulta'/>
       <Contact />
       <Parallax />
       <Footer />

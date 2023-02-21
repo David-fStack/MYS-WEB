@@ -6,7 +6,9 @@ import './Attendance.css'
 const Attendance = () => {
 
     return (
-        <div class="servicio container-fluid px-4" id="servicios">
+        <div class="servicio container-fluid px-4" id="servicios" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000">
 
             <div class="row pngPrincipal">
                 <div class="png sombra container iconsMedio">

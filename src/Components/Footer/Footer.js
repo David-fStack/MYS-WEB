@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-sm-12 col-md-7 text_style" id='abautUs'>
+                    <div className="col-sm-12 col-md-7 text_style" id='abautUs' data-aos="fade-up" data-aos-duration="2000">
                         <h6>Sobre Nosotros</h6>
                         <p className="text-justify">Bienvenidosa <i>M&S Tecnología Digital</i>, una empresa familiar con más de 22 años de experiencia en la venta, alquiler y reparación de equipos fotocopiadores e impresoras. Fundada en el año 2000 por Mario y Elizabeth, nuestra empresa se ha posicionado como una de las mejores en su rubro gracias a nuestro profesionalismo y calidez en la atención al cliente.
 
@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="col-sm-8 col-md-3">
+                    <div className="col-sm-8 col-md-3" data-aos="fade-up">
                         <h6>Enlaces Rapidos</h6>
                         <ul className="footer-links">
                             <li><a href="#contactForm">Contactanos</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
 
 
 
-            <div className="container mb-3">
+            <div className="container mb-3" data-aos="fade-up" data-aos-duration="3000">
                 <div className="row">
 
                     <div className="col-md-12 col-sm-12 col-xs-12">
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="mapaFooter">
+            <div className="mapaFooter" data-aos="flip-up" data-aos-duration="3000">
                 <iframe title='1'
                     src="https://www.google.com/maps?q=Jos%C3%A9%20Colombres%20392%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n%2C%20Argentina&z=14&t=&ie=UTF8&output=embed"
                     width="100%" height="250" >

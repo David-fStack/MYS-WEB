@@ -21,7 +21,8 @@ export const Contact = () => {
     };
 
     return (
-        <div className='container shadow_style'>
+        <div className='container shadow_style' data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center" data-aos-duration="1000">
 
             <Form className='form_style' ref={form} onSubmit={sendEmail} action="#">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

@@ -2,7 +2,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function BasicExample() {
   return (
-    <Accordion className='m-3' defaultActiveKey="0" id='infoVyS'>
+    <Accordion className='m-3' defaultActiveKey="0" id='infoVyS' data-aos="fade-up"
+    data-aos-duration="3000">
       <Accordion.Item eventKey="0">
         <Accordion.Header><strong>Venta y Alquiler</strong></Accordion.Header>
         <Accordion.Body>

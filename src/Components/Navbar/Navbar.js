@@ -15,13 +15,13 @@ function CollapsibleExample(props) {
             <Nav.Link href="#features"></Nav.Link>
             <Nav.Link href={props.contacto}>Contacto</Nav.Link>
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item>
+              {/* <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item> */}
               <NavDropdown.Item href="Equipos">
                 Equipos
               </NavDropdown.Item>
               <NavDropdown.Item href="#/"></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#abautUs">
+              <NavDropdown.Item href="#Services">
                 Sobre Nosotros
               </NavDropdown.Item>
             </NavDropdown>

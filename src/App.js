@@ -13,6 +13,7 @@ import asesoria from './Assets/Img/CardVyS/aseso.jpg'
 import Separator from './Components/Separator/Separator';
 import Attendance from './Components/Attendance/Attendance';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
+import { Contact } from './Components/ContactUS/Contact';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
       
       <Attendance />
       <Separator />
-
+      <Contact />
       <Parallax />
       <Footer />
       <CopyRigth />

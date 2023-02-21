@@ -9,6 +9,7 @@ import Separator from '../../Components/Separator/Separator';
 import Footer from '../../Components/Footer/Footer';
 import CopyRigth from '../../Components/CopyRigth/CopyRigth';
 import WhatsApp from '../../Components/WhatsApp/WhatsApp';
+import { Contact } from '../../Components/ContactUS/Contact';
 
 
 const Machines = (props) => {
@@ -54,9 +55,10 @@ const Machines = (props) => {
           </div>
         </div>
 
-        <Separator />
+        <Separator seccion='Envianos tu consulta' id='Form' />
 
-
+          <Contact />
+          <br />
         <Footer />
         <CopyRigth />
       </div>

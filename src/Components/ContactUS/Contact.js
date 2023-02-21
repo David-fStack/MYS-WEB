@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import './Contact.css'
 
 export const Contact = () => {
     const form = useRef();
@@ -20,13 +21,11 @@ export const Contact = () => {
     };
 
     return (
-        <div className='container' data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+        <div className='container shadow_style'>
 
             <Form className='form_style' ref={form} onSubmit={sendEmail} action="#">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Nombre y Apellido</Form.Label>
+                    <Form.Label className='mt-2'>Nombre y Apellido</Form.Label>
                     <Form.Control type="text" name="user_name" placeholder="Escribe tu Nombre y Apellido" />
                 </Form.Group>
 
@@ -50,7 +49,7 @@ export const Contact = () => {
                     <Form.Label>Pon Aqui Tu Consulta</Form.Label>
                     <Form.Control as="textarea" name='message' rows={3} />
                 </Form.Group>
-                <input className='btn btn-primary mx-5' type="submit" value="Enviar" />
+                <input className='btn btn-primary mb-3' type="submit" value="Enviar" />
             </Form>
         </div>
     );

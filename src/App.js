@@ -20,7 +20,7 @@ function App() {
   return ( 
     <div className="App">
       <WhatsApp />
-      <CollapsibleExample contacto='#contactForm'/>
+      <CollapsibleExample/>
       <CarouselFadeExample />
       <Separator seccion='Nuestros Servicios' id='Services' />
       

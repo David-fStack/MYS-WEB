@@ -12,8 +12,8 @@ function CollapsibleExample(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features"></Nav.Link>
-            <Nav.Link href={props.contacto}>Contacto</Nav.Link>
+            {/* <Nav.Link href="#features"></Nav.Link> */}
+            <Nav.Link href="#Form">Contacto</Nav.Link>
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               {/* <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item> */}
               <NavDropdown.Item href="Equipos">

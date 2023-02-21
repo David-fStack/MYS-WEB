@@ -7,7 +7,7 @@ function BasicExample() {
       <Accordion.Item eventKey="0">
         <Accordion.Header><strong>Venta y Alquiler</strong></Accordion.Header>
         <Accordion.Body>
-          Contamos con equipos fotocopiadores, impresoras, scanners Blanco-negro y Color de ultima generación de las marcas mas reconocidas. Para así tener la mejor eperiencia al momento de manipular nuestros equipos.
+          Contamos con equipos fotocopiadores, impresoras, scanners Blanco-negro y Color de ultima generación de las marcas mas reconocidas. Para así tener la mejor experiencia al momento de manipular nuestros equipos.
           <br />
           Los equipos proporcionados para la venta y alquiler son acordes a las necesidades del cliente, como asi tambien las prestaciones de los mismos.
         </Accordion.Body>

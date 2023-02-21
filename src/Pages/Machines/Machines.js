@@ -8,40 +8,57 @@ import ListGroupWithHeaderExample from '../../Components/CardTexto/CardTexto';
 import Separator from '../../Components/Separator/Separator';
 import Footer from '../../Components/Footer/Footer';
 import CopyRigth from '../../Components/CopyRigth/CopyRigth';
+import WhatsApp from '../../Components/WhatsApp/WhatsApp';
 
 
 const Machines = (props) => {
 
   return (
     <section className=''>
-      <CollapsibleExample contacto='/contacto'/>
+      <WhatsApp />
+      <CollapsibleExample contacto='/contacto' />
       <HeroE name='Equipos' />
-      
-      <div className='container-fluid'>
+
+      <div className='container-fluid' data-aos="fade-right" data-aos-duration="2000">
         <div className='row d-flex flex-row'>
           <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-          <IndividualIntervalsExample   />
+            <IndividualIntervalsExample />
           </div>
 
           <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-          <ListGroupWithHeaderExample st='box_img' />
+            <ListGroupWithHeaderExample st='box_img' />
           </div>
         </div>
 
-          <Separator />
+        <Separator />
 
-        <div className='row d-flex flex-row'>
+        <div className='row d-flex flex-row' data-aos="fade-left" data-aos-duration="2000">
           <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-          <ListGroupWithHeaderExample st='box_img' />
+            <ListGroupWithHeaderExample st='box_img' />
           </div>
 
           <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-          <IndividualIntervalsExample   />
+            <IndividualIntervalsExample />
           </div>
         </div>
-      <Separator />
-      <Footer />
-      <CopyRigth />
+
+        <Separator />
+
+        <div className='row d-flex flex-row' data-aos="fade-right" data-aos-duration="2000">
+          <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+            <IndividualIntervalsExample />
+          </div>
+
+          <div className='col-xs-12 col-lg-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+            <ListGroupWithHeaderExample st='box_img' />
+          </div>
+        </div>
+
+        <Separator />
+
+
+        <Footer />
+        <CopyRigth />
       </div>
     </section>
   )

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ricoh from '../../Assets/Img/Hero/ricoh.jpg'
-import xerox from '../../Assets/Img/Hero/xerox.png'
-import xerox4 from '../../Assets/Img/Hero/xerox4.jpg'
+import ricoh from '../../Assets/Img/Hero/ricoh.webp'
+import xerox from '../../Assets/Img/Hero/xerox.webp'
+import xerox4 from '../../Assets/Img/Hero/xerox4.webp'
 
 function CarouselFadeExample() {
   return (

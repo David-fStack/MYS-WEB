@@ -4,7 +4,7 @@ import './WhatsApp.css'
 const WhatsApp = () => {
     return (
         <div>
-            <a href="https://wa.me/message/27JSG64AO55UD1">
+            <a href="https://wa.me/+5493814667288">
                 <div class="btn-wsp" target="_blank">
                     <i>
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"

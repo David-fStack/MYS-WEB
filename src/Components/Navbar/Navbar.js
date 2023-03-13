@@ -14,6 +14,18 @@ function CollapsibleExample(props) {
           <Nav className="me-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="#Form">Contacto</Nav.Link>
+
+
+
+            
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default CollapsibleExample;
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               {/* <NavDropdown.Item href="#infoVyS">Ventas y Alquileres</NavDropdown.Item> */}
               <NavDropdown.Item href="Equipos">
@@ -25,11 +37,3 @@ function CollapsibleExample(props) {
                 Sobre Nosotros
               </NavDropdown.Item>
             </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
-}
-
-export default CollapsibleExample;

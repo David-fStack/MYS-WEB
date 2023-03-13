@@ -7,21 +7,21 @@ function BasicExample() {
       <Accordion.Item eventKey="0">
         <Accordion.Header><strong>Venta y Alquiler</strong></Accordion.Header>
         <Accordion.Body>
-          Contamos con equipos fotocopiadores, impresoras, scanners Blanco-negro y Color de ultima generación de las marcas mas reconocidas. Para así tener la mejor experiencia al momento de manipular nuestros equipos.
-          <br />
-          Los equipos proporcionados para la venta y alquiler son acordes a las necesidades del cliente, como asi tambien las prestaciones de los mismos.
+        Nuestra empresa dispone de equipos de fotocopiado, impresión y escaneo de última generación de las marcas más reconocidas en el mercado. Gracias a esto, podemos garantizar que nuestros clientes tendrán la mejor experiencia al manipular nuestros equipos.
+
+Además, ofrecemos equipos tanto para la venta como para el alquiler, y nos aseguramos de que se adapten perfectamente a las necesidades específicas de cada cliente. De esta manera, nuestros clientes pueden contar con las prestaciones que realmente necesitan y maximizar su inversión en tecnología de oficina.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
         <Accordion.Header><strong>Servicio Técnico</strong></Accordion.Header>
         <Accordion.Body>
-        Contamos con nuestro propio servicio técnico especializado conformado por profecionales altamente capacitados y preparados para resolver lo antes posible cualquier urgencia. Brindando asi una excelente atencion y velocidad de respuesta.
+        Nuestra empresa cuenta con un servicio técnico especializado integrado por profesionales altamente capacitados y preparados para resolver de manera eficiente y rápida cualquier inconveniente que pueda presentarse. Nos enorgullece ofrecer una atención de calidad y una respuesta rápida a nuestros clientes.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header><strong>Asesoramiento Profecional</strong></Accordion.Header>
         <Accordion.Body>
-          Nuestro equipo de profesionales lo asesorará de la mejor manera, con respecto a todo lo que necesite para comenzar con su negocio o implementación empresarial, tanto a la hora de alquilar o comprar (equipos e insumos) dependiendo de las funcionalidades, costos y ganancias que mejor se adapten a sus necesides.
+        Nuestro equipo de profesionales altamente capacitados está siempre disponible para asesorarlo en todo lo que necesite para iniciar su negocio o implementación empresarial. Ya sea que esté buscando comprar o alquilar equipos e insumos, nuestro equipo le proporcionará información detallada sobre las funcionalidades, costos y beneficios de cada opción, para ayudarlo a encontrar la solución que mejor se adapte a sus necesidades específicas.
           <br />
           
         </Accordion.Body>

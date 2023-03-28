@@ -7,7 +7,7 @@ const CopyRigth = () => {
     return (
         <div class="copyRigth">© Copyright {currentYear}
             - All Rights Reserved -
-            <a href="https://github.com/David-fStack">David-fStack</a>
+            <a href="https://codevpro.com/">CODEVPRO</a>
         </div>
     );
 };

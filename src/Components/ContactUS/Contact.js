@@ -34,14 +34,14 @@ export const Contact = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col} className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" name="cel" placeholder="name@example.com" />
+                        <Form.Control type="email" name="user_email" placeholder="name@example.com" />
 
                     </Form.Group>
 
                     <Form.Group as={Col}>
 
                         <Form.Label>Numero de Celular</Form.Label>
-                        <Form.Control type="number" name="user_email" placeholder="Ej.: (381) 153-456785" />
+                        <Form.Control type="number" name="cel" placeholder="Ej.: (381) 153-456785" />
                     </Form.Group>
                 </Row>
 

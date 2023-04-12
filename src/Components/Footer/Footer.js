@@ -41,8 +41,8 @@ const Footer = () => {
             <div className="container mb-3" data-aos="flip-right" data-aos-duration="3000">
                 <div className="row">
 
-                    <div className="col-md-12 col-sm-12 col-xs-12">
-                        <ul className="social-icons">
+                    <div className="col-md-12 col-sm-12 col-xs-12 ">
+                        <ul className="social-icons d-flex justify-content-center">
                             <li><a className="facebook" href="https://www.facebook.com/MysTecnologiaDdigital"><i
                                 className="fab fa-facebook"></i></a></li>
                             <li><a className="email" href="#contactForm"><i className="far fa-envelope"></i></a></li>
@@ -50,6 +50,7 @@ const Footer = () => {
                                 className="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
+                    
 
                 </div>
             </div>

@@ -11,11 +11,12 @@ const Footer = () => {
 
                     <div className="col-sm-12 col-md-7 text_style" id='abautUs' >
                         <h6>Sobre Nosotros</h6>
-                        <p className="text-justify" data-aos="fade-up" data-aos-duration="2000">Bienvenidosa <i>M&S Tecnología Digital</i>, una empresa familiar con más de 22 años de experiencia en la venta, alquiler y reparación de equipos fotocopiadores e impresoras. Fundada en el año 2000 por Mario y Elizabeth, nuestra empresa se ha posicionado como una de las mejores en su rubro gracias a nuestro profesionalismo y calidez en la atención al cliente.
-
-                            Nos enorgullece haber creado relaciones duraderas con nuestros clientes y proveedores, lo que demuestra nuestro compromiso con la excelencia y la satisfacción del cliente. Ya sea que esté buscando soluciones de impresión para su hogar, oficina o empresa, en M&S Tecnología Digital encontrará la atención personalizada y los productos de alta calidad que necesita para alcanzar sus objetivos.
-
-                            Gracias por confiar en nosotros. Estamos comprometidos con su éxito y esperamos poder ayudarlo a alcanzar sus metas de impresión.</p>
+                        <p className="text-justify" data-aos="fade-up" data-aos-duration="2000"><h1>Bienvenidos a M&S Tecnología Digital</h1>
+                            <p>Somos una empresa familiar con más de dos décadas de trayectoria en el sector de la venta, alquiler y reparación de equipos fotocopiadores e impresoras. Desde nuestra fundación en el año 2000 por Mario y Elizabeth, nos hemos destacado por nuestro profesionalismo y atención al cliente.</p>
+                            <p>Nos enorgullece haber construido relaciones sólidas y duraderas tanto con nuestros clientes como con nuestros proveedores, lo que refleja nuestro compromiso con la excelencia y la satisfacción del cliente. En M&S Tecnología Digital, nos esforzamos por ofrecer soluciones personalizadas y productos de alta calidad para satisfacer las necesidades de impresión de hogares, oficinas y empresas.</p>
+                            <p>Ya sea que esté buscando una impresora para su hogar, una solución de impresión para su oficina o un servicio de mantenimiento para su parque de equipos, estamos aquí para ayudarlo. Nuestro equipo altamente capacitado está comprometido con su éxito y está listo para brindarle el soporte necesario para alcanzar sus metas de impresión.</p>
+                            <p>Gracias por confiar en nosotros. Esperamos poder acompañarlo en su camino hacia el éxito en el ámbito de la tecnología digital.</p>
+                        </p>
                     </div>
 
 
@@ -50,7 +51,7 @@ const Footer = () => {
                                 className="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
-                    
+
 
                 </div>
             </div>
